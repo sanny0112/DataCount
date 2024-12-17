@@ -1,0 +1,60 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #edeef0;
+}
+
+h2{
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.content{
+  text-align: center;
+  margin-top: 110px;
+}
+
+.date-container{
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 9px;
+  min-width: 130px;
+}
+
+.date-container + .date-container {
+  margin-left: 7px;
+}
+
+.num{
+  /* font-family: 'Orbitron', sans-serif; */
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.name{
+  margin-top: 7px;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.final-date{
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 200;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.calendar {
+  display: none;
+}
+
+.calendar.active {
+  display: inline-block;
+}
+
